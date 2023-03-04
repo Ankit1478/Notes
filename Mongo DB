@@ -1,0 +1,34 @@
+QUESTION -> What is MongoDB? Explain non-relational databases in short. In which scenarios it is preferred to use MongoDB over SQL databases?
+
+ANS -> MongoDB is a popular open-source NoSQL database management system that uses a document-oriented data model to store and retrieve data.
+Instead of storing data in tables and rows like traditional relational databases, MongoDB stores data in flexible JSON-like documents with dynamic schemas. This allows developers to store and manipulate data in a more natural and intuitive way, 
+without the need for complex SQL queries.
+MongoDB is designed for scalability and high availability, with features such as automatic sharding, replication, and load balancing. It is commonly used for web applications,
+content management systems, and other applications that require fast, flexible, and scalable data storage.
+Some key features of MongoDB include:
+1.Dynamic schema: MongoDB allows you to store data with a flexible schema, which can be changed on the fly as your application evolves.
+2.Indexing: MongoDB supports indexing to improve query performance and enable efficient sorting and aggregation of data.
+3.Sharding: MongoDB can automatically partition data across multiple servers, allowing for horizontal scaling and improved performance.
+4.Replication: MongoDB can replicate data across multiple servers, providing high availability and fault tolerance.
+5.Aggregation: MongoDB provides powerful aggregation and map-reduce functionality for advanced data analysis and processing.
+
+Non-relational databases, also known as NoSQL databases, are a type of database management system that stores and manages data differently than traditional relational databases. Rather than organizing data into tables with strict schemas and relationships,
+non-relational databases use flexible data models that can store data in a variety of formats, such as key-value pairs, documents, graphs, or columns.
+
+
+MongoDB is often preferred over SQL databases in scenarios where the data being stored is unstructured or semi-structured, or when there is a need for high scalability and flexibility in data modeling.
+Here are some specific scenarios where MongoDB may be a better choice than SQL databases:
+
+1.Big data: MongoDB is designed to handle large volumes of unstructured or semi-structured data, which makes it well-suited for big data applications.
+
+2.Real-time analytics: MongoDB's flexible data model allows for quick and easy querying of data, making it ideal for real-time analytics and reporting.
+
+3.Agile development: MongoDB's dynamic schema makes it easy to adapt to changing business requirements,
+making it ideal for agile development environments where the data model may change frequently.
+4.Rapid prototyping: MongoDB's schema-less design allows for quick and easy prototyping of new applications, making it a popular choice among developers.
+
+5.High scalability: MongoDB is designed to scale horizontally across multiple servers, making it well-suited for applications that require high scalability and availability.
+
+Overall, MongoDB may be a better choice than SQL databases in scenarios where the data being stored is unstructured or semi-structured,
+or when there is a need for high scalability and flexibility in data modeling. However, 
+it's important to evaluate the specific requirements of your application to determine which database management system is the best fit.
