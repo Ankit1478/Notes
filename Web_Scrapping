@@ -1,0 +1,32 @@
+Q1. What is Web Scraping? Why is it Used? Give three areas where Web Scraping is used to get data.
+Ans -> Web Scraping is the process of automatically extracting data from websites using software or scripts. It involves fetching the HTML code of a webpage and then parsing the code to extract the relevant information. Web Scraping is used to extract large amounts of data from the web quickly and efficiently.
+
+Three areas where Web Scraping is commonly used include:
+
+1.E-commerce: Web Scraping is used to extract product information, prices, and reviews from e-commerce websites like Amazon and eBay.
+2.Market Research: Web Scraping is used to extract data on competitors, prices, and market trends from various websites to conduct market research.
+3.Social Media: Web Scraping is used to extract data from social media platforms like Twitter and Facebook for sentiment analysis, opinion mining, and other research purposes.
+
+
+
+Q2. What are the different methods used for Web Scraping?
+Ans ->
+1.Using libraries: There are several Python libraries available for Web Scraping such as Beautiful Soup, Scrapy, and Requests. These libraries provide APIs to interact with web pages and extract data.
+Manual 
+2.Web Scraping: Manual web scraping involves copying and pasting data from web pages into a spreadsheet or text document.
+3.Browser extensions: There are several browser extensions like Data Miner, Web Scraper, and Scraper that allow users to extract data from web pages using point-and-click interfaces.
+
+
+
+Q3. What is Beautiful Soup? Why is it used?
+Ans ->  Beautiful Soup can be used to extract text, URLs, and other data from web pages. 
+       . Beautiful Soup is a Python library that is used for web scraping purposes to extract data from HTML and XML files. 
+       
+       
+ 
+Q4. Why is flask used in this Web Scraping project?   
+
+Ans ->   Flask is a lightweight web framework in Python that is used for building web applications.
+Flask is used in Web Scraping projects because it allows developers to build REST APIs that can be used to serve data scraped from web pages.
+Flask provides a simple and flexible way to handle incoming requests, manage routing, and handle responses. 
+Flask also provides integration with popular Python libraries like Beautiful Soup, making it easy to build complex Web Scraping projects.
